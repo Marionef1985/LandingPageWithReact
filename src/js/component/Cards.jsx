@@ -6,7 +6,7 @@ import Card3 from "./Cards/Card3.jsx";
 const Cards = () => {
     return (
         <>
-        <div className="container">
+        <div className="row row-cols-3 row-cols-md-2 g-4">
             <Card1 />
             <Card2 />
             <Card3 />
@@ -15,7 +15,7 @@ const Cards = () => {
     )
 }
 
-
+/*>*/
 
 
 
