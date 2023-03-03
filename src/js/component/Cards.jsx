@@ -4,20 +4,20 @@ import Card2 from "./Cards/Card2.jsx";
 import Card3 from "./Cards/Card3.jsx";
 
 const Cards = () => {
-    return (
-        <>
-        <div className="row row-cols-3 row-cols-md-2 g-4">
-            <Card1 />
+  return (
+    <>
+      <div className="row">
+        <Card1 />
+        <Card2 />
+        <Card3 />
+      </div>
+    </>
+  );
+};
+
+/*<Card1 />
             <Card2 />
-            <Card3 />
-        </div>
-        </>
-    )
-}
-
-/*>*/
-
-
+            <Card3 />*/
 
 export default Cards;
 
