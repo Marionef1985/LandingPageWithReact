@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import NavBar from "./NavBar.jsx";
 import Jumbotron from "./Jumbotron.jsx";
 import Cards from "./Cards.jsx";
@@ -11,7 +12,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<>
-		<div className="container-fluid">
+		<div className="container-fluid" id="home">
 			<NavBar />
 			<Jumbotron />
 			<Cards />

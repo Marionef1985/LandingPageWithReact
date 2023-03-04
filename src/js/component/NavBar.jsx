@@ -1,51 +1,107 @@
 import React from "react";
 
+const Contact = () => {
+  return (
+    <>
+      <li className="nav-item">
+        <a className="nav-link" href="#">
+          Contact
+        </a>
+      </li>
+    </>
+  );
+};
+
+const Services = () => {
+  return (
+    <>
+      <li className="nav-item">
+        <a className="nav-link" href="#">
+          Services
+        </a>
+      </li>
+    </>
+  );
+};
+
+const About = () => {
+  return (
+    <>
+      <li className="nav-item">
+        <a className="nav-link" href="#">
+          About
+        </a>
+      </li>
+    </>
+  );
+};
+
+const Home = () => {
+  return (
+    <>
+      <li className="nav-item">
+        <a className="nav-link active" aria-current="page" href="#">
+          Home
+        </a>
+      </li>
+    </>
+  );
+};
+
+const MenuNavBar = () => {
+  return (
+    <>
+    <ul className="navbar-nav">
+              <Home />
+              <About />
+              <Services />
+              <Contact />
+            </ul>
+    </>
+  )
+}
+
+const TheCookieMonsterButton = () => {
+  return (
+    <>
+      <a className="navbar-brand" href="#">
+        The Cookie Monster 🍪
+      </a>
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+    </>
+  );
+};
+
+const NavBarElements = () => {
+  return (
+    <>
+    <div className="container">
+          <TheCookieMonsterButton />
+        </div>
+        <div className="nav justify-content-end">
+          <div className="collapse navbar-collapse" id="navbarNav">
+           <MenuNavBar /> 
+          </div>
+        </div>
+    </>
+  )
+}
+
 const NavBar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div className="container">
-          <a className="navbar-brand" href="#">
-            Start Boostrap
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-        </div>
-        <div className="nav justify-content-end">
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  About 
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Services
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <NavBarElements />
       </nav>
     </>
   );
