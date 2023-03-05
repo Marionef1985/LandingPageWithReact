@@ -9,7 +9,7 @@ import "../styles/index.css";
 
 //import your own components
 import Home from "./component/home.jsx";
-//import Menu from "./src/html/menu.jsx";
+//import Menu from "./component/menu.jsx";
 
 //render your react application
 ReactDOM.render(<Home />, document.querySelector("#app"));

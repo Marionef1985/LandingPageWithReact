@@ -1,21 +1,53 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+const Button = (props) => {
+  return (
+    <>
+      <a href={props.buttonURL} className="btn btn-primary">
+        Lo quiero!
+      </a>
+    </>
+  );
+};
+
+const Text = (props) => {
+  return (
+    <>
+      <p className="card-text">{props.cardText}</p>
+    </>
+  );
+};
+
+const Title = (props) => {
+  return (
+    <>
+      <h5 className="card-title pt-3">{props.cardTitle}</h5>
+    </>
+  );
+};
+
+const Image = (props) => {
+  return (
+    <>
+      <img
+        src={props.src}
+        className="card-img-top cardImages"
+        alt={props.alt}
+      />
+    </>
+  );
+};
+
 const Card = (props) => {
   return (
     <>
       <div className="col-sm-4">
         <div className="card text-center">
-          <img 
-            src={props.imageURL}
-            className="card-img-top cardImages"
-            alt={props.imageALT}
-          />
-          <h5 className="card-title">{props.cardTitle}</h5>
-          <p className="card-text">{props.cardText}</p>
-          <a href={props.buttonURL} className="btn btn-primary">
-            {props.buttonLabel}
-          </a>
+          <Image src={props.imageURL} alt={props.imageALT} />
+          <Title cardTitle={props.cardTitle}/>
+          <Text cardText={props.cardText}/>
+          <Button href={props.buttonURL} />
         </div>
       </div>
     </>
@@ -58,11 +90,20 @@ const Cards = () => {
 export default Cards;
 
 /*  */
-Card.propTypes = {
+
+Image.propTypes = {
   imageURL: PropTypes.string,
   imageALT: PropTypes.string,
+};
+
+Title.propTypes = {
   cardTitle: PropTypes.string,
+};
+
+Text.propTypes = {
   cardText: PropTypes.string,
+};
+
+Button.propTypes = {
   buttonURL: PropTypes.string,
-  buttonLabel: PropTypes.string,
 };
