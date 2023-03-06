@@ -42,7 +42,7 @@ const Image = (props) => {
 const Card = (props) => {
   return (
     <>
-      <div className="col-sm-4">
+      <div className="col-sm-3">
         <div className="card text-center">
           <Image src={props.imageURL} alt={props.imageALT} />
           <Title cardTitle={props.cardTitle}/>
@@ -59,7 +59,7 @@ const Cards = () => {
     <>
       <div className="row">
         <Card
-          imageURL="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFawcVz4W5Ra_y703NWcwuCtQ-Faqa1GA1-g&usqp=CAU"
+          imageURL="https://imgs.search.brave.com/pzZAuSrJ4CNaQjMF2q9Ko1ZueBnfUld7se-erkhc3vU/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5C/R05Mc0Z2amdpcGY3/X1g5NTNFekl3SGFI/YSZwaWQ9QXBp"
           imageALT="Galleta de Pistacho"
           cardTitle="Galleta de Pistacho con Frambuesa"
           cardText="Galleta rellena de frambuesa con chocolate, cubierto de pistacho"
@@ -67,10 +67,10 @@ const Cards = () => {
           buttonLabel="La quiero!"
         />
         <Card
-          imageURL="https://d320djwtwnl5uo.cloudfront.net/recetas/share/788f3646f9a8aadb89d5b17acf6bb1a1_3_3_photo.png"
+          imageURL="https://imgs.search.brave.com/oCR5iyLglNqCdeUCyvpvYkbSBjWGYSElTPtHcRg65bI/rs:fit:626:626:1/g:ce/aHR0cHM6Ly9pbWFn/ZS5mcmVlcGlrLmNv/bS9mb3RvLWdyYXRp/cy9nYWxsZXRhLWNo/aXNwYXMtY2hvY29s/YXRlLWJsYW5jby1h/aXNsYWRvXzEyMDg3/Mi02MzY5LmpwZw"
           imageALT="Galleta de Choco-chips"
           cardTitle="Galleta de Choco-chips"
-          cardText="Galleta de choco-chips"
+          cardText="La que no puede faltar! Galleta clasica con choco-chips"
           buttonURL=""
           buttonLabel="La quiero!"
         />
@@ -79,6 +79,14 @@ const Cards = () => {
           imageALT="Alfajor de almendra"
           cardTitle="Alfajor de Almendra"
           cardText="Alfajor de sablee de almendra, relleno de dulce de leche"
+          buttonURL=""
+          buttonLabel="Lo quiero!"
+        />
+        <Card
+          imageURL="https://imgs.search.brave.com/3TltN4XVSIHgEdG2Crc7ocYeDXFuhrGWT7PSg8jxnHU/rs:fit:960:960:1/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vZm9vZHJl/Y2lwZXMuY28uemEv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDcvYnJvd25pZXMt/MS5qcGc"
+          imageALT="Brownie de Chocolate"
+          cardTitle="Brownie de Chocolate"
+          cardText="Para los amantes del chocolate Brownie de chocolate con un toque de nutella"
           buttonURL=""
           buttonLabel="Lo quiero!"
         />

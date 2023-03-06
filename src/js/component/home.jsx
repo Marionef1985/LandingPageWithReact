@@ -5,8 +5,10 @@ import Jumbotron from "./Jumbotron.jsx";
 import Cards from "./Cards.jsx";
 import Footer from "./Footer.jsx";
 
+
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
+import Manicure from "./Marione.jsx";
 
 //create your first component
 const Home = () => {

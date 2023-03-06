@@ -1,10 +1,19 @@
 .cardImages {
-   
-    width: 350px;
+    width: 342px;
     height: 350px;
-   
 }
 
+
+.btn {
+    background-color: rgb(226, 159, 43);
+    border-color: rgb(226, 159, 43);
+    
+}
+
+.btn:hover {
+ background-color: darkslateblue;
+ border-color: darkslateblue;
+}
 /* 
 
     You can write your own styles here...
