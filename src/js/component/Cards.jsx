@@ -14,7 +14,7 @@ const Button = (props) => {
 const Text = (props) => {
   return (
     <>
-      <p className="card-text">{props.cardText}</p>
+      <p className="card-text m-1 pb-2">{props.cardText}</p>
     </>
   );
 };
@@ -22,7 +22,7 @@ const Text = (props) => {
 const Title = (props) => {
   return (
     <>
-      <h5 className="card-title pt-3">{props.cardTitle}</h5>
+      <h5 className="card-title pt-3 m-2">{props.cardTitle}</h5>
     </>
   );
 };
@@ -61,7 +61,7 @@ const Cards = () => {
         <Card
           imageURL="https://imgs.search.brave.com/pzZAuSrJ4CNaQjMF2q9Ko1ZueBnfUld7se-erkhc3vU/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5C/R05Mc0Z2amdpcGY3/X1g5NTNFekl3SGFI/YSZwaWQ9QXBp"
           imageALT="Galleta de Pistacho"
-          cardTitle="Galleta de Pistacho con Frambuesa"
+          cardTitle="Galleta de Pistacho"
           cardText="Galleta rellena de frambuesa con chocolate, cubierto de pistacho"
           buttonURL=""
           buttonLabel="La quiero!"

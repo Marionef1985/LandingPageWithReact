@@ -64,7 +64,7 @@ const MenuNavBar = () => {
 const TheCookieMonsterButton = () => {
   return (
     <>
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand ms-2" href="#">
         The Cookie Monster 🍪
       </a>
       <button
@@ -85,11 +85,11 @@ const TheCookieMonsterButton = () => {
 const NavBarElements = () => {
   return (
     <>
-    <div className="container">
+    <div className="container-fluid m-0">
           <TheCookieMonsterButton />
         </div>
         <div className="nav justify-content-end">
-          <div className="collapse navbar-collapse" id="navbarNav">
+          <div className="collapse navbar-collapse m-1 me-2" id="navbarNav">
            <MenuNavBar /> 
           </div>
         </div>
