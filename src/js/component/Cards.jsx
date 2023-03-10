@@ -43,10 +43,10 @@ const Card = (props) => {
   return (
     <>
       <div className="col-sm-3">
-        <div className="card text-center">
+        <div className="card text-center p2">
           <Image src={props.imageURL} alt={props.imageALT} />
-          <Title cardTitle={props.cardTitle}/>
-          <Text cardText={props.cardText}/>
+          <Title cardTitle={props.cardTitle} />
+          <Text cardText={props.cardText} />
           <Button href={props.buttonURL} />
         </div>
       </div>

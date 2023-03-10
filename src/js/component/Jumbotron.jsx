@@ -3,12 +3,11 @@ import React from "react";
 const Button = () => {
   return (
     <>
-    <a href="./public/menu.html">
-    <button className="btn btn-primary btn-lg" type="button">
-        Quiero mi Galleta!
-      </button>
-    </a>
-      
+      <a href="./public/menu.html">
+        <button className="btn btn-primary btn-lg" type="button">
+          Quiero mi Galleta!
+        </button>
+      </a>
     </>
   );
 };
@@ -17,9 +16,10 @@ const Body = () => {
   return (
     <>
       <p className="col-md-8 fs-4">
-        Hola! Me llamo Gala, me encanta hacer felices a todos, es por eso que hago galletas!
-        Estan deeeeeeeliciosas 😋<br/>
-        Ya las probaste? 
+        Hola! Me llamo Gala, me encanta hacer felices a todos, es por eso que
+        hago galletas! Estan deeeeeeeliciosas 😋
+        <br />
+        Ya las probaste?
       </p>
     </>
   );
