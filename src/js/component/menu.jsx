@@ -43,9 +43,9 @@ const Menu = () => {
 export default Menu;
 
 CardMenu.propTypes = {
-    imageSRC: PropTypes.string,
-    imageAlt: PropTypes.string,
-    cardTitle: PropTypes.string,
-    cardText: PropTypes.string,
-    buttonURL: PropTypes.string,
-}
+  imageSRC: PropTypes.string,
+  imageAlt: PropTypes.string,
+  cardTitle: PropTypes.string,
+  cardText: PropTypes.string,
+  buttonURL: PropTypes.string,
+};

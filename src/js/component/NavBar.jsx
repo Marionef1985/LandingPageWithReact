@@ -51,15 +51,15 @@ const Home = () => {
 const MenuNavBar = () => {
   return (
     <>
-    <ul className="navbar-nav">
-              <Home />
-              <About />
-              <Services />
-              <Contact />
-            </ul>
+      <ul className="navbar-nav">
+        <Home />
+        <About />
+        <Services />
+        <Contact />
+      </ul>
     </>
-  )
-}
+  );
+};
 
 const TheCookieMonsterButton = () => {
   return (
@@ -85,17 +85,17 @@ const TheCookieMonsterButton = () => {
 const NavBarElements = () => {
   return (
     <>
-    <div className="container-fluid m-0">
-          <TheCookieMonsterButton />
+      <div className="container-fluid m-0">
+        <TheCookieMonsterButton />
+      </div>
+      <div className="nav justify-content-end">
+        <div className="collapse navbar-collapse m-1 me-2" id="navbarNav">
+          <MenuNavBar />
         </div>
-        <div className="nav justify-content-end">
-          <div className="collapse navbar-collapse m-1 me-2" id="navbarNav">
-           <MenuNavBar /> 
-          </div>
-        </div>
+      </div>
     </>
-  )
-}
+  );
+};
 
 const NavBar = () => {
   return (

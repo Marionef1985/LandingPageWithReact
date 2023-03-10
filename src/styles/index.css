@@ -1,18 +1,15 @@
 .cardImages {
-    width: 100%;
-    
+  width: 100%;
 }
 
-
 .btn {
-    background-color: rgb(226, 159, 43);
-    border-color: rgb(226, 159, 43);
-    
+  background-color: rgb(226, 159, 43);
+  border-color: rgb(226, 159, 43);
 }
 
 .btn:hover {
- background-color: darkslateblue;
- border-color: darkslateblue;
+  background-color: darkslateblue;
+  border-color: darkslateblue;
 }
 /* 
 

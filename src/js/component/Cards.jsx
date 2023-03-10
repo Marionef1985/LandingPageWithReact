@@ -43,7 +43,7 @@ const Card = (props) => {
   return (
     <>
       <div className="col-sm-3">
-        <div className="card text-center p2">
+        <div className="card text-center p2 .h-100">
           <Image src={props.imageURL} alt={props.imageALT} />
           <Title cardTitle={props.cardTitle} />
           <Text cardText={props.cardText} />
