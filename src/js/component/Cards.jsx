@@ -57,7 +57,7 @@ const Card = (props) => {
 const Cards = () => {
   return (
     <>
-      <div className="row">
+      <div className="row mb-4">
         <Card
           imageURL="https://imgs.search.brave.com/pzZAuSrJ4CNaQjMF2q9Ko1ZueBnfUld7se-erkhc3vU/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5C/R05Mc0Z2amdpcGY3/X1g5NTNFekl3SGFI/YSZwaWQ9QXBp"
           imageALT="Galleta de Pistacho"
