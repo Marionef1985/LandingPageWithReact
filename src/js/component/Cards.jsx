@@ -41,16 +41,18 @@ const Image = (props) => {
 
 const Card = (props) => {
   return (
-    <>
-      <div className="col-sm-3">
-        <div className="card text-center p2 .h-100">
-          <Image src={props.imageURL} alt={props.imageALT} />
+    <div className="card-group col-sm-3">
+      <div className="card text-center p2">
+        <Image src={props.imageURL} alt={props.imageALT} />
+        <div className="card-body">
           <Title cardTitle={props.cardTitle} />
           <Text cardText={props.cardText} />
+        </div>
+        <div className="card-footer bg-white">
           <Button href={props.buttonURL} />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
